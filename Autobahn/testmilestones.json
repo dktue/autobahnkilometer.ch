@@ -1,0 +1,1591 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.54.13 ff15392f",
+  "osm3s": {
+    "timestamp_osm_base": "2018-04-11T13:34:02Z",
+    "timestamp_areas_base": "2018-04-11T12:43:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 780560,
+  "lat": 47.1574978,
+  "lon": 8.4329099,
+  "tags": {
+    "distance": "15",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 11242779,
+  "lat": 46.1440306,
+  "lon": 8.9388203,
+  "tags": {
+    "distance": "43",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 11242780,
+  "lat": 46.1441278,
+  "lon": 8.9388031,
+  "tags": {
+    "distance": "43",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 14492533,
+  "lat": 45.9543452,
+  "lon": 8.9535512,
+  "tags": {
+    "distance": "18",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 14492558,
+  "lat": 45.9774987,
+  "lon": 8.9299621,
+  "tags": {
+    "distance": "22",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 14493509,
+  "lat": 46.0413117,
+  "lon": 8.9278400,
+  "tags": {
+    "distance": "30",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 25427230,
+  "lat": 47.4798859,
+  "lon": 8.7043776,
+  "tags": {
+    "distance": "319",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 25427550,
+  "lat": 47.4887101,
+  "lon": 8.7019734,
+  "tags": {
+    "distance": "320",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 25429273,
+  "lat": 47.4798984,
+  "lon": 8.7045342,
+  "tags": {
+    "distance": "319",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 27398794,
+  "lat": 47.5774176,
+  "lon": 8.6830001,
+  "tags": {
+    "distance": "33",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 27454253,
+  "lat": 47.1611141,
+  "lon": 9.0220296,
+  "tags": {
+    "distance": "155",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 27454855,
+  "lat": 47.1610411,
+  "lon": 9.0219524,
+  "tags": {
+    "distance": "155",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 27613548,
+  "lat": 47.5254931,
+  "lon": 8.7009518,
+  "tags": {
+    "distance": "39",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 30504446,
+  "lat": 47.5857345,
+  "lon": 8.6859424,
+  "tags": {
+    "distance": "32",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 49749733,
+  "lat": 45.9544282,
+  "lon": 8.9535969,
+  "tags": {
+    "distance": "18",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 49767724,
+  "lat": 45.9774640,
+  "lon": 8.9301006,
+  "tags": {
+    "distance": "22",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 117631795,
+  "lat": 45.8934365,
+  "lon": 8.9761233,
+  "tags": {
+    "distance": "10",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 256419656,
+  "lat": 47.4404363,
+  "lon": 8.6881902,
+  "tags": {
+    "distance": "314",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 256420186,
+  "lat": 47.4469736,
+  "lon": 8.6973726,
+  "tags": {
+    "distance": "315",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 256504376,
+  "lat": 47.4405547,
+  "lon": 8.6880999,
+  "tags": {
+    "distance": "314",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 256577509,
+  "lat": 47.5255954,
+  "lon": 8.7010540,
+  "tags": {
+    "distance": "39",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 256591109,
+  "lat": 47.4887093,
+  "lon": 8.7021263,
+  "tags": {
+    "distance": "320",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 256778511,
+  "lat": 47.5691240,
+  "lon": 8.6879773,
+  "tags": {
+    "distance": "34",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 256786984,
+  "lat": 47.6103602,
+  "lon": 8.6864891,
+  "tags": {
+    "distance": "29",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 256787849,
+  "lat": 47.6328908,
+  "lon": 8.6667114,
+  "tags": {
+    "distance": "26",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 292608133,
+  "lat": 47.1574913,
+  "lon": 8.4330699,
+  "tags": {
+    "distance": "15",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 294481642,
+  "lat": 47.6809827,
+  "lon": 8.6336423,
+  "tags": {
+    "distance": "19",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 339217569,
+  "lat": 47.5152663,
+  "lon": 9.4037410,
+  "tags": {
+    "distance": "7",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 351945692,
+  "lat": 46.0760461,
+  "lon": 8.9247301,
+  "tags": {
+    "distance": "34",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 359404040,
+  "lat": 47.2097923,
+  "lon": 9.4961919,
+  "tags": {
+    "distance": "158",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 363467604,
+  "lat": 47.4288704,
+  "lon": 9.6445034,
+  "tags": {
+    "distance": "186",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 363521099,
+  "lat": 47.4288285,
+  "lon": 9.6444169,
+  "tags": {
+    "distance": "186",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 538944934,
+  "lat": 47.1243407,
+  "lon": 8.3937563,
+  "tags": {
+    "distance": "10",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 538944985,
+  "lat": 47.1243638,
+  "lon": 8.3936243,
+  "tags": {
+    "distance": "10",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 538953753,
+  "lat": 47.1494905,
+  "lon": 8.4279544,
+  "tags": {
+    "distance": "14",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 538953789,
+  "lat": 47.1495608,
+  "lon": 8.4278303,
+  "tags": {
+    "distance": "14",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 540170445,
+  "lat": 47.1092913,
+  "lon": 9.2942209,
+  "tags": {
+    "distance": "178",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 600207244,
+  "lat": 46.8401564,
+  "lon": 9.4664297,
+  "tags": {
+    "distance": "107",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 722462715,
+  "lat": 46.4873823,
+  "lon": 8.7729922,
+  "tags": {
+    "distance": "94",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 868831373,
+  "lat": 46.2283239,
+  "lon": 9.0727583,
+  "tags": {
+    "distance": "3",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 868831878,
+  "lat": 46.2283976,
+  "lon": 9.0727045,
+  "tags": {
+    "distance": "3",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 878724754,
+  "lat": 46.3686094,
+  "lon": 9.2264057,
+  "tags": {
+    "distance": "25",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 962425967,
+  "lat": 47.6103653,
+  "lon": 8.6866159,
+  "tags": {
+    "distance": "29",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 962426104,
+  "lat": 47.6329516,
+  "lon": 8.6667952,
+  "tags": {
+    "distance": "26",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 962426130,
+  "lat": 47.6268249,
+  "lon": 8.6766796,
+  "tags": {
+    "distance": "27",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1336041390,
+  "lat": 47.2429503,
+  "lon": 9.5168838,
+  "tags": {
+    "distance": "162.0",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1349165778,
+  "lat": 47.4470321,
+  "lon": 8.6972012,
+  "tags": {
+    "distance": "315",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1384338903,
+  "lat": 47.3755933,
+  "lon": 8.6942160,
+  "tags": {
+    "distance": "22",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1384338904,
+  "lat": 47.3756580,
+  "lon": 8.6942770,
+  "tags": {
+    "distance": "22",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1458902973,
+  "lat": 47.4105349,
+  "lon": 8.4267426,
+  "tags": {
+    "distance": "90",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1461945806,
+  "lat": 47.4339941,
+  "lon": 8.6803997,
+  "tags": {
+    "distance": "313",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1461945807,
+  "lat": 47.4340249,
+  "lon": 8.6802116,
+  "tags": {
+    "distance": "313",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1467716378,
+  "lat": 47.5438234,
+  "lon": 8.6905540,
+  "tags": {
+    "distance": "37",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1467716595,
+  "lat": 47.5607535,
+  "lon": 8.6917566,
+  "tags": {
+    "distance": "35",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1508837661,
+  "lat": 47.6267561,
+  "lon": 8.6766035,
+  "tags": {
+    "distance": "27",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1509920997,
+  "lat": 46.4875096,
+  "lon": 8.7731507,
+  "tags": {
+    "distance": "94",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1509921108,
+  "lat": 46.5160960,
+  "lon": 8.6682877,
+  "tags": {
+    "distance": "103",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1509921117,
+  "lat": 46.5162009,
+  "lon": 8.6682537,
+  "tags": {
+    "distance": "103",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1509921174,
+  "lat": 46.5269552,
+  "lon": 8.6063848,
+  "tags": {
+    "distance": "108",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 1894956902,
+  "lat": 47.7110103,
+  "lon": 8.6419357,
+  "tags": {
+    "distance": "15",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 2202573851,
+  "lat": 46.4639405,
+  "lon": 9.1862684,
+  "tags": {
+    "distance": "44",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 2203954703,
+  "lat": 47.2499495,
+  "lon": 8.4500055,
+  "tags": {
+    "distance": "52",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 2203954704,
+  "lat": 47.2500026,
+  "lon": 8.4501347,
+  "tags": {
+    "distance": "52",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 2475753335,
+  "lat": 46.3523926,
+  "lon": 9.2187079,
+  "tags": {
+    "distance": "23",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 2475753444,
+  "lat": 46.3523406,
+  "lon": 9.2188173,
+  "tags": {
+    "distance": "23",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 2605072660,
+  "lat": 47.7110529,
+  "lon": 8.6418833,
+  "tags": {
+    "distance": "15",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 2605344949,
+  "lat": 47.6192303,
+  "lon": 8.6834211,
+  "tags": {
+    "distance": "28",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 2917854891,
+  "lat": 47.2314404,
+  "lon": 8.9084201,
+  "tags": {
+    "distance": "62",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 2928071748,
+  "lat": 47.5232799,
+  "lon": 9.3982720,
+  "tags": {
+    "distance": "8",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3009103454,
+  "lat": 47.5774157,
+  "lon": 8.6829483,
+  "tags": {
+    "distance": "33",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3009103469,
+  "lat": 47.5691200,
+  "lon": 8.6879286,
+  "tags": {
+    "distance": "34",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3057066431,
+  "lat": 46.0761381,
+  "lon": 8.9248735,
+  "tags": {
+    "distance": "34",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3057141179,
+  "lat": 46.1256288,
+  "lon": 8.9187440,
+  "tags": {
+    "distance": "40",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3057179176,
+  "lat": 46.1497897,
+  "lon": 8.9609997,
+  "tags": {
+    "distance": "45",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3057179179,
+  "lat": 46.1498838,
+  "lon": 8.9609610,
+  "tags": {
+    "distance": "45",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3072660974,
+  "lat": 47.6750443,
+  "lon": 8.6252254,
+  "tags": {
+    "distance": "20",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3072660975,
+  "lat": 47.6750945,
+  "lon": 8.6251521,
+  "tags": {
+    "distance": "20",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3083904852,
+  "lat": 47.5193024,
+  "lon": 8.6967018,
+  "tags": {
+    "distance": "324",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3083904853,
+  "lat": 47.5193581,
+  "lon": 8.6965504,
+  "tags": {
+    "distance": "324",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3083905508,
+  "lat": 47.5524013,
+  "lon": 8.6868423,
+  "tags": {
+    "distance": "36",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3084959480,
+  "lat": 47.5115989,
+  "lon": 8.6883404,
+  "tags": {
+    "distance": "323",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3084959481,
+  "lat": 47.5116485,
+  "lon": 8.6881996,
+  "tags": {
+    "distance": "323",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3085310547,
+  "lat": 47.5031111,
+  "lon": 8.6885483,
+  "tags": {
+    "distance": "322",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3085310549,
+  "lat": 47.5031610,
+  "lon": 8.6886610,
+  "tags": {
+    "distance": "322",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3090186505,
+  "lat": 46.5268396,
+  "lon": 8.6063587,
+  "tags": {
+    "distance": "108",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3090887336,
+  "lat": 46.5108106,
+  "lon": 8.7061015,
+  "tags": {
+    "distance": "100",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3090887339,
+  "lat": 46.5108971,
+  "lon": 8.7061692,
+  "tags": {
+    "distance": "100",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3091591195,
+  "lat": 46.1255960,
+  "lon": 8.9185387,
+  "tags": {
+    "distance": "40",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3172262955,
+  "lat": 47.1267390,
+  "lon": 9.1056632,
+  "tags": {
+    "distance": "163",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3708252500,
+  "lat": 47.2429115,
+  "lon": 9.5170240,
+  "tags": {
+    "distance": "162.0",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3724867605,
+  "lat": 47.5322393,
+  "lon": 9.4000178,
+  "tags": {
+    "distance": "9",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 3749736157,
+  "lat": 45.9019645,
+  "lon": 8.9806832,
+  "tags": {
+    "distance": "11",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 4668350184,
+  "lat": 46.8065405,
+  "lon": 9.4138075,
+  "tags": {
+    "distance": "100.0",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 4858136019,
+  "lat": 47.2072044,
+  "lon": 8.9638218,
+  "tags": {
+    "distance": "69",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5064752131,
+  "lat": 46.3686262,
+  "lon": 9.2264944,
+  "tags": {
+    "distance": "25",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5279895495,
+  "lat": 47.2467978,
+  "lon": 8.8466898,
+  "tags": {
+    "distance": "56",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5280149251,
+  "lat": 47.2291477,
+  "lon": 8.8956615,
+  "tags": {
+    "distance": "61",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5280800329,
+  "lat": 47.2072536,
+  "lon": 8.9639881,
+  "tags": {
+    "distance": "69",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5281825620,
+  "lat": 47.1269616,
+  "lon": 9.1056758,
+  "tags": {
+    "distance": "163",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5281905681,
+  "lat": 47.1139639,
+  "lon": 9.1934229,
+  "tags": {
+    "distance": "170",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5282206905,
+  "lat": 47.0679040,
+  "lon": 9.3879595,
+  "tags": {
+    "distance": "188",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5282206906,
+  "lat": 47.0678254,
+  "lon": 9.3878549,
+  "tags": {
+    "distance": "188",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5282326305,
+  "lat": 47.0017059,
+  "lon": 9.5210266,
+  "tags": {
+    "distance": "130",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5282326306,
+  "lat": 47.0016355,
+  "lon": 9.5208912,
+  "tags": {
+    "distance": "130",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5282326312,
+  "lat": 47.0143863,
+  "lon": 9.5052257,
+  "tags": {
+    "distance": "132",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5282326313,
+  "lat": 47.0145033,
+  "lon": 9.5052364,
+  "tags": {
+    "distance": "132",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5284033594,
+  "lat": 46.8402641,
+  "lon": 9.4663149,
+  "tags": {
+    "distance": "107",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5285724717,
+  "lat": 46.6420358,
+  "lon": 9.4424808,
+  "tags": {
+    "distance": "80",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5285937829,
+  "lat": 46.6254847,
+  "lon": 9.4354480,
+  "tags": {
+    "distance": "78",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5289264854,
+  "lat": 46.4203532,
+  "lon": 9.2323780,
+  "tags": {
+    "distance": "36",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5290532951,
+  "lat": 46.3194833,
+  "lon": 9.2043543,
+  "tags": {
+    "distance": "19",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5290532952,
+  "lat": 46.3194352,
+  "lon": 9.2044964,
+  "tags": {
+    "distance": "19",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5292471333,
+  "lat": 46.2218659,
+  "lon": 9.0487298,
+  "tags": {
+    "distance": "1",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5293997581,
+  "lat": 46.1708020,
+  "lon": 8.9914834,
+  "tags": {
+    "distance": "49",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5293997582,
+  "lat": 46.1708336,
+  "lon": 8.9912957,
+  "tags": {
+    "distance": "49",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5295817611,
+  "lat": 46.1097469,
+  "lon": 8.9306952,
+  "tags": {
+    "distance": "38",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5295817612,
+  "lat": 46.1097311,
+  "lon": 8.9305437,
+  "tags": {
+    "distance": "38",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5328224890,
+  "lat": 46.0328376,
+  "lon": 8.9279956,
+  "tags": {
+    "distance": "29",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5328224891,
+  "lat": 46.0328729,
+  "lon": 8.9278454,
+  "tags": {
+    "distance": "29",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5328975516,
+  "lat": 45.9913947,
+  "lon": 8.9236423,
+  "tags": {
+    "distance": "24",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5328975517,
+  "lat": 45.9912577,
+  "lon": 8.9235458,
+  "tags": {
+    "distance": "24",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5329516907,
+  "lat": 45.8440826,
+  "lon": 9.0142406,
+  "tags": {
+    "distance": "2",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5329517430,
+  "lat": 45.8475345,
+  "lon": 8.9897078,
+  "tags": {
+    "distance": "4",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5329517431,
+  "lat": 45.8474167,
+  "lon": 8.9896515,
+  "tags": {
+    "distance": "4",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5329556047,
+  "lat": 45.8439854,
+  "lon": 9.0141924,
+  "tags": {
+    "distance": "2",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5329690200,
+  "lat": 45.9020093,
+  "lon": 8.9805213,
+  "tags": {
+    "distance": "11",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5329690201,
+  "lat": 45.8934544,
+  "lon": 8.9759776,
+  "tags": {
+    "distance": "10",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5329702139,
+  "lat": 45.9357419,
+  "lon": 8.9736266,
+  "tags": {
+    "distance": "15",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5329702140,
+  "lat": 45.9358016,
+  "lon": 8.9737527,
+  "tags": {
+    "distance": "15",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5329786055,
+  "lat": 46.0245245,
+  "lon": 8.9227813,
+  "tags": {
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5329786056,
+  "lat": 46.0245561,
+  "lon": 8.9226338,
+  "tags": {
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5329786062,
+  "lat": 46.0162287,
+  "lon": 8.9185113,
+  "tags": {
+    "distance": "27",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5329786063,
+  "lat": 46.0162492,
+  "lon": 8.9183879,
+  "tags": {
+    "distance": "27",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5330111796,
+  "lat": 46.0413523,
+  "lon": 8.9279875,
+  "tags": {
+    "distance": "30",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5330689021,
+  "lat": 46.1861128,
+  "lon": 9.0037090,
+  "tags": {
+    "distance": "51",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5330689022,
+  "lat": 46.1860571,
+  "lon": 9.0038887,
+  "tags": {
+    "distance": "51",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5330758337,
+  "lat": 46.2217842,
+  "lon": 9.0487432,
+  "tags": {
+    "distance": "1",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5330773306,
+  "lat": 46.2315946,
+  "lon": 9.0843683,
+  "tags": {
+    "distance": "4",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5330773307,
+  "lat": 46.2316763,
+  "lon": 9.0843818,
+  "tags": {
+    "distance": "4",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5331134539,
+  "lat": 46.4162631,
+  "lon": 9.2276975,
+  "tags": {
+    "distance": "34",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5332090662,
+  "lat": 46.6943766,
+  "lon": 9.4440204,
+  "tags": {
+    "distance": "87",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5333430055,
+  "lat": 47.0429751,
+  "lon": 9.4664302,
+  "tags": {
+    "distance": "137",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5333430056,
+  "lat": 47.0429294,
+  "lon": 9.4665617,
+  "tags": {
+    "distance": "137",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5333973680,
+  "lat": 47.2097663,
+  "lon": 9.4963369,
+  "tags": {
+    "distance": "158",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5334813776,
+  "lat": 47.4663006,
+  "lon": 9.4717222,
+  "tags": {
+    "distance": "391",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5334813777,
+  "lat": 47.4663931,
+  "lon": 9.4716901,
+  "tags": {
+    "distance": "391",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5335259646,
+  "lat": 47.5322126,
+  "lon": 9.4000798,
+  "tags": {
+    "distance": "9",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5348845706,
+  "lat": 47.6192543,
+  "lon": 8.6835444,
+  "tags": {
+    "distance": "28",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5349082438,
+  "lat": 47.4164529,
+  "lon": 8.6281648,
+  "tags": {
+    "distance": "308",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5349082439,
+  "lat": 47.4165345,
+  "lon": 8.6280602,
+  "tags": {
+    "distance": "308",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5350733802,
+  "lat": 47.2581056,
+  "lon": 8.4432292,
+  "tags": {
+    "distance": "51",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5350733803,
+  "lat": 47.2580673,
+  "lon": 8.4430844,
+  "tags": {
+    "distance": "51",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5351800752,
+  "lat": 47.1327718,
+  "lon": 8.3982593,
+  "tags": {
+    "distance": "11",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5351800753,
+  "lat": 47.1327974,
+  "lon": 8.3981198,
+  "tags": {
+    "distance": "11",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5351800766,
+  "lat": 47.1450526,
+  "lon": 8.4169382,
+  "tags": {
+    "distance": "13",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5351800767,
+  "lat": 47.1449522,
+  "lon": 8.4169811,
+  "tags": {
+    "distance": "13",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5352366953,
+  "lat": 47.1191085,
+  "lon": 8.3701229,
+  "tags": {
+    "distance": "8",
+    "highway": "milestone"
+  }
+},
+{
+  "type": "node",
+  "id": 5352409980,
+  "lat": 47.1189990,
+  "lon": 8.3701149,
+  "tags": {
+    "distance": "8",
+    "highway": "milestone"
+  }
+}
+
+  ]
+}

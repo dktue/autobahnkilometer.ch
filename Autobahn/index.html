@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>autobahnkilometer.ch</title>
+
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="lib/jquery/jquery-3.3.1.min.js"></script>
+    <link href="lib/leaflet/leaflet.css" rel="stylesheet" />
+    <link href="lib/leaflet/plugins/awesome-markers/leaflet.awesome-markers.css" rel="stylesheet" />
+    <script src="lib/leaflet/leaflet.js"></script>
+    <script src="lib/leaflet/plugins/awesome-markers/leaflet.awesome-markers.min.js"></script>
+    <link href="lib/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="lib/jquery/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="lib/circles/circles.min.js"></script>
+
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="OSM.js"></script>
+    <script src="app.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+</head>
+<body id="content">
+	<a href="https://github.com/dktue/autobahnkilometer.ch"><img style="position: absolute; top: 0; left: 0; border: 0; z-index: 999;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" alt="Fork me on GitHub"></a>
+    <div id="map"></div>
+    <div id="meta">
+        <div id="progress"></div>
+        <div id="total"></div>
+        <div id="josm-overpass">
+            <h1>Overpass-Query für JOSM</h1>
+            <div class="code">
+                [out:xml][timeout:25];
+                (
+                node(area:3600051701)["highway"="milestone"];
+                way(area:3600051701)["highway"="motorway"];
+                );
+                (._;>;);
+                out meta;
+            </div>
+        </div>
+    </div>
+</body>
+</html>
