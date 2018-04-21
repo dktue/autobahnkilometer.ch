@@ -9,7 +9,11 @@ window.onload = () => {
     getData();
 };
 function initMap() {
-    map = L.map("map", { zoomControl: false }).setView([46.822, 8.224], 8);
+    let parameters = getHashParameters();
+    let zoom = parameters.zoom || 8;
+    let lat = parameters.lat || 46.822;
+    let lng = parameters.lng || 8.224;
+    map = L.map("map", { zoomControl: false }).setView([lat, lng], zoom);
     L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
         maxZoom: 19,
@@ -18,6 +22,23 @@ function initMap() {
     highwayLayer.addTo(map);
     milestoneLayer = L.featureGroup();
     milestoneLayer.addTo(map);
+    map.on("move", onMapMove);
+    map.on("moveend", onMapMove);
+    map.on("zoomend", onMapMove);
+}
+function getHashParameters() {
+    var hash = window.location.hash.substr(1);
+    var result = hash.split('&').reduce(function (result, item) {
+        var parts = item.split('=');
+        result[parts[0]] = parts[1];
+        return result;
+    }, {});
+    return result;
+}
+function onMapMove(e) {
+    let center = map.getCenter();
+    let zoom = map.getZoom();
+    document.location.hash = "lat=" + center.lat.toFixed(6) + "&lng=" + center.lng.toFixed(6) + "&zoom=" + zoom;
 }
 function getData() {
     //let url = "testdata2.json";
@@ -104,23 +125,16 @@ function latLon2Array(latLon) {
     return [latLon.lat, latLon.lon];
 }
 function haversineDistance(coords1, coords2) {
+    var radians = Array.prototype.map.call(arguments, function (deg) { return deg / 180.0 * Math.PI; });
+    var lat1 = toRad(coords1[0]), lon1 = toRad(coords1[1]), lat2 = toRad(coords2[0]), lon2 = toRad(coords2[1]);
+    var R = 6372.8; // km
+    var dLat = lat2 - lat1;
+    var dLon = lon2 - lon1;
+    var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.sin(dLon / 2) * Math.sin(dLon / 2) * Math.cos(lat1) * Math.cos(lat2);
+    var c = 2 * Math.asin(Math.sqrt(a));
+    return R * c;
     function toRad(x) {
         return x * Math.PI / 180;
     }
-    var lon1 = coords1[0];
-    var lat1 = coords1[1];
-    var lon2 = coords2[0];
-    var lat2 = coords2[1];
-    var R = 6371; // km
-    var x1 = lat2 - lat1;
-    var dLat = toRad(x1);
-    var x2 = lon2 - lon1;
-    var dLon = toRad(x2);
-    var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-        Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
-            Math.sin(dLon / 2) * Math.sin(dLon / 2);
-    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    var d = R * c;
-    return d;
 }
 //# sourceMappingURL=app.js.map
